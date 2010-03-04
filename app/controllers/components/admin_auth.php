@@ -58,6 +58,7 @@ class AdminAuthComponent extends Object {
    */
   protected function auth($user, $pass) {
 	$hash = sha1($user . $pass . Configure::read('Security.salt'));
+	//echo $hash;
 	return $hash === ADMIN_AUTH_HASH;
   }
 }

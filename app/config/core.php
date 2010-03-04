@@ -65,7 +65,8 @@
  * 'superuser' -> superuser_index() and /superuser/controller/index
  */
 	Configure::write('Routing.admin', 'admin');
-	define('ADMIN_AUTH_HASH','3b020cea5f758e49ee950b3f3702fd7e01746f4f');
+	define('ADMIN_AUTH_HASH','d357484f3abd2ba379195c33c15f12a67b2f76a3');
+	/* admin_auth.php にて確認が必要/**/
 
 /**
  * Turn off all caching application-wide.
