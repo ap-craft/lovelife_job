@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+/* レイアウト関連 */
+
+.container {
+	background: url(bgcontainer.gif) repeat-y;
+	margin: 0 auto;
+	padding-bottom: 6px;
+	width: 767px;
+}
+.header {
+	background: url(header.gif) repeat-x;
+	height: 110px;
+	padding-top: 40px;
+}
+
+.main {
+	clear: both;
+	padding: 8px 18px;
+}
+
+.content {
+	float: right;
+	width: 520px;
+}
+
+.sidenav {
+	background: #EEE;
+	border: 1px solid #E5E5E5;
+	float: left;
+	width: 200px;
+}
+
+.footer {
+	background: #FFF;
+	border: 1px solid #EEE;
+	color: #666;
+	margin: 0 auto;
+	text-align: center;
+	padding: 6px;
+	width: 720px;
+}
+
+.clearer {
+	clear: both;
+}

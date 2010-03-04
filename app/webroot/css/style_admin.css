@@ -1,0 +1,297 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* グローバルタグ設定 */
+body {
+		font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+		background-color: #fff;
+		font-size: 0.9em;
+}
+
+h1{
+	font-size: 1.8em;
+	border-bottom: 1px solid #949D9F;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+img{
+	border: none;
+}
+
+
+
+/* テーブル関連 */
+.listTable{
+	width: 85%;
+	border: none;
+}
+.listTable th{
+	border-bottom: 1px solid #CCCCCC;
+	padding: 2px;
+	font-weight: bold;
+}
+.listTable td{
+	border-bottom: 1px dashed #cccccc;
+	padding: 2px;
+}
+
+
+#container{
+	background-color: #fff;
+	color: #333;
+	line-height: 130%;
+}
+
+#header{
+	height: 150px;
+	background: url(logo_bk.gif) repeat-x left top;
+	position: relative;
+}
+
+#header h1{
+	padding-top: 20px;
+	color: #FF3B77;
+	font-size: 1.8em;
+	border: none;
+}
+
+#header img{
+	margin-top: 0px;
+	margin-left: 30px;
+}
+
+#header_underline{
+	height: 5px;
+	background-color: #fff;
+}
+
+/* サイドバーナビゲーション */
+#leftnav{
+	float: left;
+	width: 255px;
+	margin: 0;
+	padding: 15px;
+}
+
+/* 管理画面メニュー */
+#leftnav #admin_menu{
+	width: 240px;
+}
+
+#leftnav #admin_menu #admin_menu_top{
+	background: url(menu_top.gif) no-repeat left top;
+	width: 240px;
+	height: 10px;
+}
+
+#leftnav #admin_menu #admin_menu_content{
+	background-color: #3E4F63;
+	color: #ffffff;
+	width: 235px;
+	padding-left: 5px;
+	padding-top: 15px;
+}
+
+#leftnav #admin_menu #admin_menu_content h2{
+	font-size: 1.5em;
+	padding-left: 5px;
+}
+
+#leftnav #admin_menu #admin_menu_content ul{
+	margin-top: 10px;
+	padding-bottom: 15px;
+}
+
+#leftnav #admin_menu #admin_menu_content li{
+	margin-left: 15px;
+	list-style: none;
+}
+
+#leftnav #admin_menu #admin_menu_content a{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 6px 8px 6px 20px;
+	display: block;
+	border-left: 3px solid #3E4F63;
+}
+
+#leftnav #admin_menu #admin_menu_content a:hover{
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #536a84;
+	border-left: 3px solid #C2C290;
+}
+
+#leftnav #admin_menu #admin_menu_bottom{
+	background: url(menu_bottom.gif) no-repeat left top;
+	width: 240px;
+	height: 15px;
+}
+
+/* メイン画面 */
+#content{
+	margin-left: 270px;
+	padding: 1em;
+}
+
+/* フッター */
+#footer{
+	clear: both;
+	margin: 0;
+	padding: .5em;
+	color: #555;
+	border-top: 1px solid #999;
+	background-color: #fff;
+	
+}
+
+#leftnav p { 
+	margin: 0 0 1em 0; 
+}
+
+#content h2 { 
+	margin: 0 0 .5em 0; 
+}
+
+/* インプット用 */
+.input{
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.input:after{
+	clear: both;
+}
+
+.input select{
+	width: 200px;
+	padding: 5px;
+}
+
+.input textarea{
+	padding: 5px;
+	width: 50%;
+	height: 100px;
+	border: 1px solid #999999;
+	background-color:#F8F4E3;
+}
+
+.input textarea.text_entry_box{
+	padding: 2px;
+	width: 90%;
+	height: 300px;
+	border-top: 1px dashed #000000;
+	border-bottom: 1px solid #999999;
+	border-left: none;
+	border-right: none;
+	background-color:#F8F4E3;
+	line-height: 24px;
+}
+
+
+.input input{
+	padding: 5px;
+	font-size: 1.0em;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px dashed #000000;
+}
+
+.input label{
+	font-size: 1.0em;
+	width: 150px;
+	float: left;
+}
+
+.submit{
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+.submit input{
+	font-size: 1.2em;
+	padding: 2px;
+}
+
+.error-message{
+	margin-left: 150px;
+	color: #BB0009;
+}
+
+div.checkbox{
+	padding-left: 150px;
+}
+
+div.checkbox label{
+	float: none;
+}
+
+.form_note{
+	margin-left: 150px;
+}
+
+/* paginator */
+div.paginator{
+	text-align: center;
+}
+
+div.paginator table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.paginator a{
+	background-color: #ffffff;
+}
+
+div.paginator a:hover{
+	color: #369;
+}
+
+div.paginator a div{
+	border: 1px solid #369;
+	width: 30px;
+	height: 25px;
+	margin: 5px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+div.paginator div.now_showing{
+	color: #fff;
+	border: 1px solid #369;
+	width: 30px;
+	height: 25px;
+	margin: 5px;
+	text-align: center;
+	padding-top: 5px;
+	background-color: #369;
+}
+
+
+/* paginator ここまで */
+/* その他 */
+.alignRight{
+	text-align: right;
+	margin: 10px;
+}
+
+.message{
+	border: 1px solid #c6d2db;
+	width: 80%;
+	text-align: center;
+	padding: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+

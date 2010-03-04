@@ -1,0 +1,115 @@
+/* インプット用 */
+
+form.oneline{
+
+}
+	
+form.oneline .input{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+form.oneline .input input{
+	padding: 2px;
+	width: 50px;
+	border: 1px solid #C6D2DB;
+}
+
+form.oneline .input:after{
+	clear: inherit;
+}
+
+form.oneline .input label{
+	font-size: 1.0em;
+	width: 75px;
+	float: left;
+}
+
+form.oneline .submit{
+	float: left;
+	text-align: left;
+	margin: 0px;
+}
+
+form.oneline .submit input{
+	font-size: 1.0em;
+}
+
+.input{
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.input:after{
+	clear: both;
+}
+
+.input select{
+	width: 200px;
+	padding: 5px;
+}
+
+.input textarea{
+	padding: 5px;
+	width: 50%;
+	height: 100px;
+	border: 1px solid #999999;
+	background-color:#F8F4E3;
+}
+
+.input textarea.text_entry_box{
+	padding: 2px;
+	width: 90%;
+	height: 300px;
+	border-top: 1px dashed #000000;
+	border-bottom: 1px solid #999999;
+	border-left: none;
+	border-right: none;
+	background-color:#F8F4E3;
+	line-height: 24px;
+}
+
+
+.input input{
+	padding: 5px;
+	font-size: 1.0em;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px dashed #000000;
+}
+
+.input label{
+	font-size: 1.0em;
+	width: 150px;
+	float: left;
+}
+
+.submit{
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+.submit input{
+	font-size: 1.2em;
+	padding: 2px;
+}
+
+.error-message{
+	margin-left: 150px;
+	color: #ff0000;
+}
+
+div.checkbox{
+	padding-left: 150px;
+}
+
+div.checkbox label{
+	float: none;
+}
+
+.form_note{
+	margin-left: 150px;
+}

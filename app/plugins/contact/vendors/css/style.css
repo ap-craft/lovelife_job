@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+#blog .article_info,
+#blog .links{
+	text-align: right;
+}
+
+h3#writecomment{
+	border-bottom: 1px solid #367EA6;
+}
+
+#blog .comment{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#blog .comment_body{
+	padding-left: 10px;
+}
+
+.comment_new .name{
+	text-align: right;
+}
+
+#blog #trackbackurl{
+	background-color: #F8F8F8;
+	border-top: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+	margin-top: 5px;
+	margin-bottom: 5px;	
+	padding: 20px;
+}
+
+#blog #alert{
+	background-color: #FFDDDE;
+	border-top: 1px solid #FF9393;
+	border-bottom: 1px solid #FF9393;
+	margin-top: 5px;
+	margin-bottom: 5px;	
+	padding: 20px;
+}

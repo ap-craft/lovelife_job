@@ -1,0 +1,1 @@
+<?php e($this->renderElement('Blog.new_comments')); ?>
