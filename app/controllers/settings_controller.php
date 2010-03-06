@@ -18,7 +18,7 @@ class SettingsController extends AppController {
 		
 		if(empty($this->data)){
 			
-			//セッティングデータの取得
+			///セッティングデータの取得
 			$this->data = array('Setting' => $this->Setting->getValues());
 			
 			

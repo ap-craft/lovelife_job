@@ -28,7 +28,7 @@ class PageController extends AppController {
 
 		$this->set('page',$page);
 
-		//ページの一部として出力する際に便利（サイドバーとか）
+		//ページの一部として出力する際に便利（サイドバーとか）こめんと追加
 		if($page['Page']['parent_id'] == 0)
 			$this->set('sub_menu',$this->Page->generateSubMenu($page['Page']['id']));
 		else
